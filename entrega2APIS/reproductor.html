@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reproductor de video</title>
+</head>
+<body>
+    <h1>Reproductor de vídeo</h1>
+    <div>
+        <input type="file" id="videoFileInput" accept="video/mp4">
+        <button id="playButton">Play</button>
+        <button id="pauseButton">Pause</button>
+        <button id="increaseVolumeButton">Subir Volumen</button>
+        <button id="decreaseVolumeButton">Bajar Volumen</button>
+    </div>
+    <div id="videoContainer">
+        <video id="videoPlayer" controls></video>
+    </div>
+    <div id="loadingMessage" style="display: none;">Cargando el vídeo...</div>
+    <script src="script.js"></script>
+</body>
+</html>
